@@ -6,7 +6,7 @@ import connectionDB from './DB/Connection.js';
 dotenv.config()
 
 const app = express()
-const port = process.env.PORT ||1111;
+const port = process.env.PORT || 1111;
 
 connectionDB()
 

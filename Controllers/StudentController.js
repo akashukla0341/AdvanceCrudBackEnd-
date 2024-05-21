@@ -12,7 +12,6 @@ const BASE_URL = process.env.BASE_URL
 
 class studentController{
 
-
     static createDoc = async (req,res) => {
         try {
             const profile = req.file.filename;
